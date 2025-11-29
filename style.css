@@ -27,6 +27,12 @@ body{
         #pakages >.cards .card{
             width: 95% !important;
         }
+
+        #works,#traveler,#blog,#last_com-about_cards{
+            width: 90vw !important  ;
+            margin: 0 5vw 0 5vw !important ;
+            
+        }
     }
 /* media query end */
 
