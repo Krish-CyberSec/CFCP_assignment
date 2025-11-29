@@ -28,10 +28,13 @@ body{
             width: 95% !important;
         }
 
-        #works,#traveler,#blog,#last_com-about_cards{
+        #works,#traveler,#blog,#last_com-about_cards,#suscribe,#contact{
             width: 90vw !important  ;
             margin: 0 5vw 0 5vw !important ;
             
+        }
+        #contact{
+            margin-top:50px !important;
         }
     }
 /* media query end */
