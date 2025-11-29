@@ -20,12 +20,12 @@ body{
         }
 
         #pakages >.cards{
-            display: grid;
+            display: grid !important;
             grid-template-columns: 50% 50% !important;
         }
 
         #pakages >.cards .card{
-            width: 95%;
+            width: 95% !important;
         }
     }
 /* media query end */
