@@ -70,7 +70,7 @@ body{
             background: linear-gradient(
         rgba(30, 144, 255, 0.5),   /* Blue overlay */
         rgba(30, 144, 255, 0.5)
-            ), url("/Capstone_Project/img/banner.jpg");
+            ), url("/img/banner.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         
@@ -564,7 +564,7 @@ body{
         margin-left: 5%;
         height: 200px;
         display: flex;
-        background-image: url("/Capstone_Project/img/loc.jpg");
+        background-image: url("/img/loc.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
