@@ -8,7 +8,18 @@ body{
     overflow-x: hidden;
 
 }
+/* media query start */
+    @media (max-width:900px) {
+        #popular >.cards{
+            grid-template-columns: 50% 50% !important;
+        }
 
+       #popular >.cards .card {
+            margin-top:40px;
+
+        }
+    }
+/* media query end */
 
 
 /* Header */
