@@ -197,6 +197,12 @@ body{
         cursor: pointer;
     }
 
+    #popular .card:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 4px 20px rgba(30, 144, 255, 0.2);
+    }
+    
+
     .card_img{
         height: 65%;
     }
@@ -225,6 +231,7 @@ body{
         width: 70vw;
         margin: 0 15vw 0 15vw;
     }
+    
     #pakages >h4{
 
         text-align: center;
@@ -250,6 +257,10 @@ body{
         box-shadow: 0 2px 12px rgba(30, 144, 255, 0.07); 
         transition: transform 0.2s, box-shadow 0.2s;
         cursor: pointer;
+    }
+    #pakages .card:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 4px 20px rgba(30, 144, 255, 0.2);
     }
 
     .card_info{
@@ -316,6 +327,10 @@ body{
         cursor: pointer;
         text-align: center;
     }
+    #works .cards .card:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 4px 20px rgba(30, 144, 255, 0.2);
+    }
 
     #works .cards .card span{
         border-radius: 50%;
@@ -371,6 +386,10 @@ body{
         transition: transform 0.2s, box-shadow 0.2s;
         cursor: pointer;
         text-align: center;
+    }
+    #traveler .cards .card:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 4px 20px rgba(30, 144, 255, 0.2);
     }
 
     #traveler .cards .card .trav_img{
@@ -432,6 +451,10 @@ body{
         transition: transform 0.2s, box-shadow 0.2s;
         cursor: pointer;
         text-align: center;
+    }
+    #blog .cards .card:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 4px 20px rgba(30, 144, 255, 0.2);
     }
 
     #blog .cards .card .blog_img{
